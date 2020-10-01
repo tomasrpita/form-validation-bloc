@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:formvalidation/src/pages/bloc/login_bloc.dart';
+export 'package:formvalidation/src/pages/bloc/login_bloc.dart';
 
 // Vas a ser mi in personalizado
 // Puede llamarse de diferente forma,

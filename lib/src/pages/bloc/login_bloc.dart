@@ -9,8 +9,8 @@ class LoginBloc {
   Stream<String> get passwordStream => _passwordController.stream;
 
   // Insertar valores al Stream
-  Function(String) get chancheEmail => _emailController.sink.add;
-  Function(String) get changePassword => _emailController.sink.add;
+  Function(String) get changeEmail => _emailController.sink.add;
+  Function(String) get changePassword => _passwordController.sink.add;
 
   dispose() {
     _emailController?.close();
