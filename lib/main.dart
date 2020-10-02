@@ -21,8 +21,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-//
-//
-// Stream<bool> get formValidStream =>
-//   Rx.combineLatest2(emailStream, passwStream, (e, p) => true);
